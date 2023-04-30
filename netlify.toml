@@ -2,3 +2,14 @@
   from = "/*"
   to = "/public/index.html"
   status = 200
+
+[build]
+  publish = "public"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+  force = true
+
