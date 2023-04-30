@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Other CSS Code */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
